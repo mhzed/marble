@@ -28,8 +28,7 @@
     "node": ">=0.4.0"
   },
   "dependencies" : {
-    "mayo" : ">=0.1.0",
-    "coffee-script" : "1.x"
+    "mayo" : ">=0.1.0"
   },
   "devDependencies" : {
       "nodeunit" : "*"
