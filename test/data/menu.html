@@ -1,0 +1,20 @@
+// param.activeMenu refers to active menu
+--
+  _ = require("under_score");
+  menus = ['Tool', 'Help'];
+  activeClass = { }; activeClass[param.activeMenu]='active';
+--
+--|
+  uselessvar = 'useless'
+--
+  // test support for xml tags, should be treated as is
+  <!-- test xml comment -->
+  // the real deal
+  ul.menu
+    li File
+    li Edit
+    li Window
+  // this is the special handler that gets converted to js code
+  --for item in menus
+    li.#{activeClass[item]} #{item}
+  --this.block 'extraMenu'

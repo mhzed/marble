@@ -1,0 +1,9 @@
+// test extend
+--_ = require("under_score");
+--this.extend "./menu.html", { activeMenu : 'Help' }, =>
+ // override menu block
+ --this.block 'extraMenu', =>
+  li extraMenu1
+  li extraMenu2
+ // following div won't show up anythere, cuz it's not inside of overriden block
+ div#garbage

@@ -1,0 +1,38 @@
+{
+  "name": "marble",
+  "version": "0.1.0",
+  "author": {
+      "name" : "zed zhou",
+      "url" : "http://mhzed.com",
+      "email" : "mhzedd@gmail.com"
+  },
+  "keywords": [
+    "template",
+    "html",
+    "coffescript",
+    "asynchronous",
+    "haml"
+  ],
+  "description": "Asynchronous indentation based template engine for coffee-script",
+  "homepage": "https://github.com/mhzed/marble",
+  "bugs" : {
+      "email": "mhzedd@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies" : {
+    "mayo" : ">=0.1.0",
+    "coffee-script" : "1.x"
+  },
+  "devDependencies" : {
+      "nodeunit" : "*"
+  } ,
+  "main": "./index"
+}
