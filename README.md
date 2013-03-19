@@ -4,6 +4,10 @@ Marble is a xml/html template engine based on "mayo".  Marble uses an indentatio
 of jade and haml, and employs coffee-script as the scripting language.  As coffee-script itself is indentation aware, you can
 use Marble to write dense and clean template code.  And in reality you may use marble to generate any type of text output with ease.
 
+## Installation
+
+    npm install marble
+
 ## Tutorial
 
 The javascript code to run marble:
